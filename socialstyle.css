@@ -1,0 +1,76 @@
+body{
+    background: #ccd6d6;
+}
+
+.social-handles{
+    display: flex;
+    justify-content: center;
+}
+
+.social-handles a{
+    display: flex;
+    background-color: #ccd6d6;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+    border:1px solid  rgba(0,0,0,0);
+                
+}
+
+a i {
+    font-size: 35px;
+    color:rgb(109, 108, 108);
+}
+
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px 0.5px 0px  rgba(255,255,255,1);
+
+    border:1px solid  rgba(0,0,0,0.1);            
+}
+
+.textin{
+    font-family: 'Open Sans', sans-serif;
+    padding:200px 0 100px;
+    text-align: center;
+    color: rgb(109, 108, 108);
+}
+
+.textin > input{
+    background-color: #ccd6d6;
+    height: 50px;
+    width: 350px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+                border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    border:none;
+
+}
+
+input:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px 0.5px 0px  rgba(255,255,255,1);
+
+border:1px solid  rgba(0,0,0,0.1);           
+}
+
+input[type=text]{
+    color:rgb(109, 108, 108);
+}
+
+.home{
+   color:rgb(109, 108, 108);
+}

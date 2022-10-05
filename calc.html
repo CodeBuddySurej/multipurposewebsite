@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Calculations</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="calcstyle.css">
+<link rel="icon" href="calculator.png">
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="color.html">Random Color</a>
+            <a href="weather.html">Weather</a>
+            <a href="index.html">Home</a>
+            
+            <a href="#name" class="split">Multipurpose Website</a>
+        </div>
+<div class="wrap">
+        <div class="bmidiv">
+            <h1> Calculate your BMI</h1>
+            <input type="text" id="weight" placeholder="Weight In KG"> 
+            <br>
+            <input type="text" id="height" placeholder="Height in CM">
+            <br>
+            <button id="button" onclick="calc()">Calculate</button>
+            <h1 id="result">Your Bmi is 0.0</h1>
+            <h1 id="status">Status = ?</h1>
+        </div>
+
+        <div class="wiop">
+            <h1> Calculate your weight</h1>
+            <h1>in other planets</h1>
+            <input type="text" placeholder="Your Weight In Kg" id="ab1">
+            <br>
+            <select id="planets">
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+              </select>
+            <br>
+            <button id="button" onclick="wiop()">Calculate</button>
+            <h1 id="pr">Result = ?</h1>
+            <h1 id="wr"></h1>
+ 
+        </div>
+    </div>
+        <script src="calcjs.js"></script>
+    </body>
+</html>
